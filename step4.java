@@ -17,10 +17,10 @@ public class step4 {
             {0, 1, 0, 0, 0}
         };
 
-        System.out.println("Initial Grid:");
+        System.out.println("Original Grid:");
         printGrid(grid);
 
-        // Example: Click a tile at coordinates provided as command-line arguments
+        // Click a tile at coordinates provided as command-line arguments
         int[][] updatedGrid = clickTile(grid, row, col);
 
         System.out.println("\nUpdated Grid:");
@@ -49,3 +49,4 @@ public class step4 {
         }
     }
 }
+
