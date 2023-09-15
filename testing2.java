@@ -1,3 +1,11 @@
+/*
+-9 == flag
+-7 == checked and empty
+-1 == mine
+0 == empty and unchecked
+number == next to a mine
+ */
+
 import java.util.Scanner;
 
 public class testing2 {
