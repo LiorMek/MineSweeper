@@ -117,8 +117,8 @@ public class testing3 {
         // We flag a tile with the value " -9 ".
         public static int[][] flag(int x, int y, int[][] flags) {
             if (flags[x][y] == 0) {
-                flags[x][y] = 1; // Set a flag
-            } else if (flags[x][y] == 1) {
+                flags[x][y] = -9; // Set a flag
+            } else if (flags[x][y] == -9) {
                 flags[x][y] = 0; // Remove the flag
             }
             return flags;
